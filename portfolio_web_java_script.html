@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rodrigo Pacheco | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="side-nav">
+  <ul>
+    <li><span>01</span><a href="#inicio" data-pt="INÍCIO" data-en="HOME">INÍCIO</a></li>
+    <li><span>02</span><a href="#skills" data-pt="SKILLS" data-en="SKILLS">SKILLS</a></li>
+    <li><span>03</span><a href="#educacao" data-pt="EDUCAÇÃO" data-en="EDUCATION">EDUCAÇÃO</a></li>
+    <li><span>04</span><a href="#jornada" data-pt="JORNADA" data-en="JOURNEY">JORNADA</a></li>
+    <li><span>05</span><a href="#projetos" data-pt="PROJETOS" data-en="PROJECTS">PROJETOS</a></li>
+  </ul>
+  <button id="lang-toggle" class="lang-btn">EN</button>
+</nav>
+
+<header id="inicio">
+  <div class="boot-screen" id="boot">
+<pre>[ OK ] Initializing system
+[ OK ] Loading kernel modules
+[ OK ] Mounting /dev/root
+[ OK ] Starting portfolio interface...</pre>
+  </div>
+  <div class="hero" id="hero">
+    <h1 class="glitch" data-text="Rodrigo Pacheco" data-pt="Rodrigo Pacheco" data-en="Rodrigo Pacheco">Rodrigo Pacheco</h1>
+    <div class="subtitle" data-pt="Arquiteto DevOps Jr" data-en="DevOps Architect Jr">Arquiteto DevOps Jr</div>
+    <p data-pt="Estagiário em Infraestrutura & DevOps, apaixonado por automação, Kubernetes, OpenShift e desenvolvimento web." data-en="Infrastructure & DevOps Intern, passionate about automation, Kubernetes, OpenShift and web development.">Estagiário em Infraestrutura & DevOps, apaixonado por automação, Kubernetes, OpenShift e desenvolvimento web.</p>
+    <a href="#jornada" class="btn" data-pt="Conheça meu trabalho" data-en="See my work">Conheça meu trabalho</a>
+</header>
+
+
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <strong>☁️ Cloud & DevOps</strong>
+      <p>Linux, Docker, Kubernetes, OpenShift, HashiCorp Vault, Ansible, Terraform, Jenkins, ArgoCD</p>
+    </div>
+
+    <div class="card">
+      <strong>🧠 Languages</strong>
+      <p>Python, JavaScript e Java.</p>
+    </div>
+
+    <div class="card">
+      <strong>🎨 Frontend & Mobile</strong>
+      <p>React, React Native, Angular, HTML e CSS.</p>
+    </div>
+
+    <div class="card">
+      <strong>⚙️ Backend & API</strong>
+      <p>Node.js, Django, Flask e desenvolvimento de REST APIs.</p>
+    </div>
+
+    <div class="card">
+      <strong>🗄 Database</strong>
+      <p>SQL e Firebase.</p>
+    </div>
+  </div>
+</section>
+
+<section id="educacao">
+  <h2 data-pt="Educação" data-en="Education">Educação</h2>
+  <div class="jornada">
+    <div class="card">
+      <div class="card-date">
+        <p><em data-pt="2022 - 2026" data-en="2022 - 2026">2022 - 2026</em></p>
+      </div>
+      <strong data-pt="Bacharelado em Sistemas de Informação" data-en="Bachelor's in Information Systems">Bacharelado em Sistemas de Informação</strong>
+      <p data-pt="Universidade Estácio de sá (UNESA)" data-en="Estácio de Sá University (UNESA)">Universidade Estácio de sá (UNESA)</p>
+    </div>
+  </div>
+</section>
+
+<section id="jornada">
+  <h2 data-pt="Minha Jornada" data-en="My Journey">Minha Jornada</h2>
+  <div class="jornada">
+    <div class="card">
+      <div class="card-date">
+        <p><em data-pt="02/2025 - Presente" data-en="02/2025 - Present">02/2025 - Presente</em></p>
+      </div>
+      <strong data-pt="Ministério da Fazenda" data-en="Ministry of Finance">Ministério da Fazenda</strong>
+      <p><em data-pt="Estagiário em DevOps" data-en="DevOps Intern">Estagiário em DevOps</em></p>
+      <button class="more-btn" onclick="toggleDetails(this)" data-pt="Mais sobre" data-en="More about">Mais sobre</button>
+      <div class="additional-details" style="display: none;">
+        <ul>
+          <li data-pt="Atuando diretamente na área de desenvolvimento e infraestrutura de aplicações, com foco em deploys automatizados, orquestração de containers e monitoramento de aplicações em produção." data-en="Working directly in application development and infrastructure, focusing on automated deploys, container orchestration and production application monitoring.">Atuando diretamente na área de desenvolvimento e infraestrutura de aplicações, com foco em deploys automatizados, orquestração de containers e monitoramento de aplicações em produção.</li>
+          <li data-pt="Responsável pela implementação, integração e manutenção de aplicações Java Spring Boot, Angular e Python no ambiente de OpenShift, utilizando uma stack moderna de DevOps." data-en="Responsible for the implementation, integration and maintenance of Java Spring Boot, Angular and Python applications in the OpenShift environment, using a modern DevOps stack.">Responsável pela implementação, integração e manutenção de aplicações Java Spring Boot, Angular e Python no ambiente de OpenShift, utilizando uma stack moderna de DevOps.</li>
+          <li data-pt="Participei na migração das aplicações legado para o ambiente novo OpenShift." data-en="I participated in the migration of legacy applications to the new OpenShift environment.">Participei na migração das aplicações legado para o ambiente novo OpenShift.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-date">
+        <p><em data-pt="2024 - 2025" data-en="2024 - 2025">2024 - 2025</em></p>
+      </div>
+      <strong data-pt="DATAPREV" data-en="DATAPREV">DATAPREV</strong>
+      <p><em data-pt="Estagiário em Virtualização" data-en="Intern in Virtualization">Estagiário em Virtualização</em></p>
+      <button class="more-btn" onclick="toggleDetails(this)" data-pt="Mais sobre" data-en="More about">Mais sobre</button>
+      <div class="additional-details" style="display: none;">
+        <ul>
+          <li data-pt="Apoio na criação de painéis de gestão e dashboards" data-en="Support in creating management panels and dashboards">Apoio na criação de painéis de gestão e dashboards</li>
+          <li data-pt="Apoio na criação e manutenção do portal de informações da área (Wordpress)" data-en="Support in creating and maintaining the area's information portal (Wordpress)">Apoio na criação e manutenção do portal de informações da área (Wordpress)</li>
+          <li data-pt="Apoio na homologação de produtos ou tecnologias" data-en="Support in product or technology certification">Apoio na homologação de produtos ou tecnologias</li>
+          <li data-pt="Apoio no controle do ciclo de vida dos produtos tecnológicos" data-en="Support in controlling the lifecycle of technological products">Apoio no controle do ciclo de vida dos produtos tecnológicos</li>
+          <li data-pt="Apoio na elaboração de padrões de tecnologias" data-en="Support in developing technology standards">Apoio na elaboração de padrões de tecnologias</li>
+          <li data-pt="Fiz a implementação de servidores em um mini laboratório interno, instalando VMware para criação de máquinas virtuais e Vcenter" data-en="I implemented servers in an internal mini laboratory, installing VMware for virtual machine creation and Vcenter">Fiz a implementação de servidores em um mini laboratório interno, instalando VMware para criação de máquinas virtuais e Vcenter</li>
+          <li data-pt="Instalação de banco de dados, Wordpress, aplicações web dentro das Vms" data-en="Installation of databases, Wordpress, web applications within VMs">Instalação de banco de dados, Wordpress, aplicações web dentro das Vms</li>
+          <li data-pt="Auxiliei a instalação do ceph nos servidores do lab" data-en="I helped install ceph on lab servers">Auxiliei a instalação do ceph nos servidores do lab</li>
+          <li data-pt="Fiz uma aplicação para análise de dados, das vms utilizando python, django e banco oracle" data-en="I made an application for data analysis of VMs using python, django and oracle database">Fiz uma aplicação para análise de dados, das vms utilizando python, django e banco oracle</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <h2 data-pt="Projetos" data-en="Projects">Projetos</h2>
+  <div class="grid">
+    <div class="card card-link" data-pt="App de Barbearia (React Native + Firebase)" data-en="Barbershop App (React Native + Firebase)" onclick="window.open('https://github.com/Errid/BarberApp', '_blank')">App de Barbearia (React Native + Firebase)</div>
+    <div class="card" data-pt="RJoias — E-commerce em React" data-en="RJoias — E-commerce in React">RJoias — E-commerce em React</div>
+    <div class="card" data-pt="Automação Kubernetes com Vault" data-en="Kubernetes Automation with Vault">Automação Kubernetes com Vault</div>
+  </div>
+</section>
+
+<footer data-pt="© 2026 - Rodrigo Pacheco" data-en="© 2026 - Rodrigo Pacheco">© 2026 - Rodrigo Pacheco</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
